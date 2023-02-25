@@ -24,3 +24,7 @@ print("|user_data|", user)
 
 user["friends"] = sorted(user["friends"])
 print(user)
+
+print(user["friends"].index("Bob"))
+
+
