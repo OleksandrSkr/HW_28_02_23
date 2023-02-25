@@ -21,3 +21,6 @@ if "Mike" in user["friends"]:
 
 user["skills"] = ["Python", "QA", "Selenium"]
 print("|user_data|", user)
+
+user["friends"] = sorted(user["friends"])
+print(user)
