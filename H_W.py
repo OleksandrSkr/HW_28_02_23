@@ -14,10 +14,9 @@ print("yaer of user birth", int(current_yaer) - int(user["age"]))
 #print("Mike" in user)
 
 if "Mike" in user["friends"]:
-#   "best_friend" = user["friends" : "Mike"] 
-#    best_friend = ("Mike")
-#    print("best_friend")
-     print("Mike best_friend")
+    print("Mike best_friend")
+    best_friend = "Mike"
+#print(best_friend)
 
 user["skills"] = ["Python", "QA", "Selenium"]
 print("|user_data|", user)
@@ -32,8 +31,8 @@ new_friends = {
 }
 print(new_friends)
 
-#user["friends"] = user.update({"friends" : "Taras", "Danya", "Bidden"})
-#print("user")
+#user["friends"].append("Taras", "Danya", "Bidden")
+#print(user)
 #prin(user["skills"])
 
 print(len(user["skills"]))
