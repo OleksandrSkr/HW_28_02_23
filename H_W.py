@@ -22,17 +22,19 @@ user["skills"] = ["Python", "QA", "Selenium"]
 print("|user_data|", user)
 
 user["friends"] = sorted(user["friends"])
-print(user)
-
-print(user["friends"].index("Bob"))
-
-new_friends = {
-    "friends": ["Taras", "Danya", "Bidden"]
-}
-print(new_friends)
-
-#user["friends"].append("Taras", "Danya", "Bidden")
 #print(user)
-#prin(user["skills"])
 
-print(len(user["skills"]))
+print("|index_Bob|", user["friends"].index("Bob"))
+
+#new_friends = "Taras", "Dania", "Bidden"
+#print(new_friends)
+#user["friends"].append(new_friends)
+#print(user)
+
+user["friends"].append("Taras")
+user["friends"].append("Dania")
+user["friends"].append("Bidden")
+print("|user_new_data|", user)
+
+#prin(user["skills"])
+print("|number_of_user_skills|", len(user["skills"]))
